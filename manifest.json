@@ -1,0 +1,44 @@
+{
+  "manifest_version": 2,
+
+  "name": "Excore",
+  "description": "...",
+  "version": "0.1",
+
+
+  "permissions": [
+  	 "webRequest", "webRequestBlocking",
+     "contextMenus",
+     "storage", 	 
+     "unlimitedStorage",
+	 "activeTab",
+     "tabs",
+    "http://*/*",
+    "https://*/*",
+    "*://*/*",
+     "<all_urls>"
+  ],
+   
+  "background": {
+     "page": "background.html"
+   },
+     
+   "browser_action": {
+     "default_icon": "icon.png",
+     "default_popup": "parts/popup.html",
+	 "default_title": "Personalize the Web!"
+  },
+  
+  "web_accessible_resources": [
+    "js/*",
+    "parts/*"
+   ],
+   
+   "content_scripts": [
+    {
+	  "matches": ["*://*/*"],
+	  "css": ["css/jquery-ui-1.10.3.custom.css", "css/webSearch.css"],
+      "js": ["js/jquery-2.0.3.min.js", "js/excore.js", "js/htmlclipper.js", "js/xpath.js"]
+    }
+  ]
+}

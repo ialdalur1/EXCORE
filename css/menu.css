@@ -1,0 +1,76 @@
+.activo{
+	width: 100%;
+}
+
+.inactivo{
+	display: none;
+	
+}
+
+.foreignCloneToolButtonDelete{
+	position: absolute;
+	float: right;
+	right: 2px;
+	/*margin-top: -32px;*/
+}
+
+.foreignCloneToolButtonDelete img{
+	width:16px;
+	padding-top:10px;
+}
+
+.button {
+//	background-color: #4CAF50;
+	border: none;
+//	color: white;
+	width: 100%;
+	// padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+//	margin: 2px 2px;
+	-webkit-transition-duration: 0.4s;
+	transition-duration: 0.4s;
+	cursor: pointer;
+	margin: 0;
+	padding: 0;
+//	width: 100%;
+	/* support: IE10, see #8844 */
+	list-style-image: url(data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7);
+}
+
+.button2 {
+	background-color: rgb(60, 60, 60);
+	color: white;
+//	border: 2px solid #008CBA;
+}
+
+.button2:hover {
+	background-color: red !important;
+	color: white !important;
+}
+
+.button3{
+	border-top: 1px solid white;
+}
+
+.buttonDeselected{
+	background-color: dimgrey;
+	color: lightslategrey;
+}
+
+#popup{
+	list-style: none;
+	padding: 2px;
+	margin: 0;
+	display: block;
+	outline: none;
+	font-family: Trebuchet MS,Tahoma,Verdana,Arial,sans-serif;
+	font-size: 1.1em;
+	border: 1px solid #dddddd;
+	background: #eeeeee;
+	color: #333333;
+	border-top-left-radius: 4px;
+}
+

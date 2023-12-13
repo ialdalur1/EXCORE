@@ -1,0 +1,101 @@
+.ws_nonSartu{
+    background: crimson !important;
+ //   background: linear-gradient(90deg, crimson 50%, blue 50%);
+}
+
+.ws_urlButton {
+    display: inline-block;
+    padding: 10px 12px;
+    font-size: 12px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 8px;
+    //box-shadow: 0 5px #999;
+}
+
+.ws_urlButton:hover {background-color: #3e8e41}
+
+.ws_urlButton:active {
+    background-color: #3e8e41;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.ws_direccion{
+    background-color: #6495ED;
+    border: 2px solid #6495ED;
+}
+
+#ws_helbidea {
+    width:95%;
+}
+
+.ws_pasteMessage{
+    background-color: #6495ED !important;
+    border: 2px solid #6495ED;
+    width: 100% !important;
+    z-index: 99999999 !important;
+    font-size: 22px;
+    text-align: center;
+}
+
+#ws_textBackground{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 10px;
+    color: white;
+}
+
+.wm_wrongurl{
+	display: none;
+	color:red;
+}
+
+.loader {
+  border: 16px solid #f3f3f3;
+  border-radius: 50%;
+  border-top: 16px solid blue;
+  border-right: 16px solid green;
+  border-bottom: 16px solid red;
+  width: 120px;
+  height: 120px;
+  -webkit-animation: spin 2s linear infinite;
+  animation: spin 2s linear infinite;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -50px;
+  margin-left: -100px;
+}
+
+@-webkit-keyframes spin {
+  0% { -webkit-transform: rotate(0deg); }
+  100% { -webkit-transform: rotate(360deg); }
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.wm_btn {
+    position: absolute;
+	background-color: crimson !important;
+	border: 1px solid black;
+	font-size: 16px;
+    top: 0px;
+    right: 0px;
+}
+
+.ws_paralelos{
+	position: relative;
+	border: 2px solid crimson;
+}
